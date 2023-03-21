@@ -3,13 +3,24 @@ wx:
     app-id: wx0c02a604b0e76df8
     secret: 8b42cc6ae7b7d8a6afd0217bf7c967fa
     # ?????????????????token
-    token: token
+    token: changfeng
 #    config-storage:
 #      type: redistemplate
 server:
-  port: 8088
-#spring:
-#  redis:
-#    host: 127.0.0.1
-#    port: 6379
-#    database: 0
+  port: 8080
+
+
+
+open:
+  ai:
+    key: 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
+    request:
+      timeout: 100000
+    model: text-davinci-003
+spring:
+  redis:
+    host: 127.0.0.1
+    port: 6379
+    database: 0
+
+#  EncodingAESKey:  jQHvydXNjYwSyDhRAmWukme1iely5dAsJTOvZZ5jxTJ
