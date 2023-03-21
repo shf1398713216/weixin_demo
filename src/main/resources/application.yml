@@ -1,0 +1,15 @@
+wx:
+  mp:
+    app-id: wx0c02a604b0e76df8
+    secret: 8b42cc6ae7b7d8a6afd0217bf7c967fa
+    # ?????????????????token
+    token: token
+#    config-storage:
+#      type: redistemplate
+server:
+  port: 8088
+#spring:
+#  redis:
+#    host: 127.0.0.1
+#    port: 6379
+#    database: 0
