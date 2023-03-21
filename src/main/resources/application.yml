@@ -11,12 +11,7 @@ server:
 
 
 
-open:
-  ai:
-    key: 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
-    request:
-      timeout: 100000
-    model: text-davinci-003
+
 spring:
   redis:
     host: 127.0.0.1

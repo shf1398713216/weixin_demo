@@ -21,7 +21,7 @@ public class ChatUtils {
     /**
      * api密匙
      */
-    public static final String apiKey = "Bearer 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";
+    public static final String apiKey = "Bearer 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";
 
     /**
      * 发送消息
@@ -45,7 +45,7 @@ public class ChatUtils {
         try {
             String body = HttpRequest.post(chatEndpoint)
                     .setHttpProxy("127.0.0.1", 7890)
-                    .header("Authorization", "Bearer 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")
+                    .header("Authorization", apiKey)
                     .header("Content-Type", "application/json")
                     .body(s)
                     .execute()
